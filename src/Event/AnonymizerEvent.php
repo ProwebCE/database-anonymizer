@@ -2,6 +2,8 @@
 
 namespace WebnetFr\DatabaseAnonymizer\Event;
 
+use Symfony\Contracts\EventDispatcher\Event;
+
 class AnonymizerEvent extends Event
 {
     public $tableName;
