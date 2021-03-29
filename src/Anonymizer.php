@@ -2,7 +2,7 @@
 
 namespace WebnetFr\DatabaseAnonymizer;
 
-use App\Event\AnonymizerEvent;
+use WebnetFr\DatabaseAnonymizer\Event\AnonymizerEvent;
 use Doctrine\DBAL\Connection;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
